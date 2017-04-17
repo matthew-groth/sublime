@@ -19,8 +19,8 @@
         "indent": 12,
         "indent_offset": 17,
         "indent_top_level": false,
-        // $base2:     #4D5165         
-        "layer0.tint": [46,48,61],
+        // $base2:     #24252F         
+        "layer0.tint": [36,37,47],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
