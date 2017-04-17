@@ -7,15 +7,15 @@
     {
         "class": "sidebar_container",
         // $base02:    #6E7EAC         
-        "layer0.tint": [110,126,172],
-        "layer0.opacity": 0.5,
+        "layer0.tint": [36,37,47],
+        "layer0.opacity": 1.0,
         "layer0.draw_center": false,
-        "layer0.inner_margin": [0, 0, 1, 0],
+        //"layer0.inner_margin": [0, 0, 1, 0],
         "content_margin": [0, 0, 1, 0]
     },
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 3],
+        //"row_padding": [8, 3],
         "indent": 12,
         "indent_offset": 17,
         "indent_top_level": false,
@@ -40,7 +40,7 @@
             { "class": "tree_row", "attributes": ["selected"] }
         ],
 
-        "shadow_color": [46, 48, 61]
+        "shadow_color": [77, 81, 101]
     },
     {
         "class": "sidebar_label",
@@ -52,8 +52,8 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        // $base01:    #F9F9F4         
-        "color": [249,216,160],
+        // $base01:    #000000         
+        "color": [0,0,0],
         "font.bold": true
         // , "shadow_color": [60, 60, 60], "shadow_offset": [0, 1]
     },
@@ -69,17 +69,23 @@
     // title_bar (OS X 10.10+, dev build)
     {
         "class": "title_bar",
-        "bg": [0, 0, 0, 1.0],
+        "bg": [36, 37, 47, 1.0],
         "fg": [200,200,200], 
     },
     
     // status_bar
     {
         "class": "status_bar",
-        "layer0.tint": [0, 0, 0, 1.0],
+        "layer0.tint": [50, 0, 0, 1.0],
+        "color": [249,249,244]
     },
 
 
+    // Tabs
 
+    {
+        "class": "tabset_control",
+        "layer0.tint": [36, 37, 47, 1.0]
+    },
 
 ]
