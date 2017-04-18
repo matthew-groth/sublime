@@ -7,7 +7,7 @@
     {
         "class": "sidebar_container",
         // $base02:    #6E7EAC         
-        "layer0.tint": [36,37,47],
+        "layer0.tint": [40,42,54],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         //"layer0.inner_margin": [0, 0, 1, 0],
@@ -20,7 +20,7 @@
         "indent_offset": 17,
         "indent_top_level": false,
         // $base2:     #24252F         
-        "layer0.tint": [36,37,47],
+        "layer0.tint": [40,42,54],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
@@ -69,14 +69,14 @@
     // title_bar (OS X 10.10+, dev build)
     {
         "class": "title_bar",
-        "bg": [36, 37, 47, 1.0],
+        "bg": [40,42,54, 1.0],
         "fg": [200,200,200], 
     },
     
     // status_bar
     {
         "class": "status_bar",
-        "layer0.tint": [50, 0, 0, 1.0],
+        "layer0.tint": [40,42,54, 1.0],
         "color": [249,249,244]
     },
 
@@ -85,7 +85,7 @@
 
     {
         "class": "tabset_control",
-        "layer0.tint": [36, 37, 47, 1.0]
+        "layer0.tint": [40,42,54, 1.0]
     },
 
 ]
